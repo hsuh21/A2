@@ -3,4 +3,35 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+body > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+body > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+#item-1 {
+    width: 50vw;
+    height: 50vh;
+}
+#item-2 {
+    width: 50vw;
+    height: 50vh;
+}
+#item-3 {
+    width: 50vw;
+    height: 50vh;
+}
+#item-4 {
+    width: 50vw;
+    height: 50vh;
 }
